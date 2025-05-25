@@ -1,6 +1,12 @@
 ## Application of TM and TE Waves in Circular Waveguides for Satellite Communication
+
+
+![image](https://github.com/user-attachments/assets/707298fd-6d47-419b-89e3-3995e9bbfdb9)
+
 ## 1. Introduction
 The modern world is powered by rapid, long-range communication technologies that require robust and reliable infrastructure. Satellite communication, in particular, connects remote geographical locations, supports disaster relief operations, facilitates TV and internet broadcasting, and plays a vital role in defense and space research. A critical component in these systems is the waveguide — a physical structure designed to direct electromagnetic waves efficiently. Among different waveguide types, circular waveguides have found substantial use in microwave and satellite communication due to their low loss, simplicity in mode excitation, and effective high-frequency transmission capabilities. In this report, we explore how Transverse Magnetic (TM) and Transverse Electric (TE) modes in circular waveguides are harnessed in real-world satellite communication systems.
+
+![image](https://github.com/user-attachments/assets/2e9b56b4-d32a-4b48-bc9a-11739bc3cba6)
 ## 2. Background: TM and TE Waves
 Electromagnetic waves, when confined to a waveguide, do not propagate uniformly as in free space. Instead, they form discrete modes — field patterns that satisfy boundary conditions of the waveguide. In circular waveguides, these are classified into TM and TE modes.
 
@@ -8,12 +14,19 @@ Electromagnetic waves, when confined to a waveguide, do not propagate uniformly 
 • TM (Transverse Magnetic) Modes: No magnetic field in the direction of propagation (Hz = 0).
 
 Each of these modes has specific cutoff frequencies, determined by the geometry of the waveguide and the mode indices (m, n). The TE11 mode is the dominant mode in circular waveguides and is most desirable for communication purposes because of its low cutoff frequency and efficient transmission.
+
+![image](https://github.com/user-attachments/assets/c3e8078c-870b-4ae7-abd8-dbde83ebc0d6)
 ## 3. Historical Development of Waveguide Technology
 Waveguide theory began in the early 20th century, primarily driven by the work of pioneers like Lord Rayleigh and John R. Carson. With the development of radar during World War II, waveguides became critical for military communications. The circular waveguide, due to its symmetry and structural integrity, was widely adopted in aerospace and defense applications. Today, its use extends into civilian satellite communication systems, deep-space probes, and high-frequency test setups.
+
+![image](https://github.com/user-attachments/assets/38c1cfe2-b79c-45f8-bf1b-241f6f994804)
 ## 4. Technical Design and Fabrication of Circular Waveguides
 The design of a circular waveguide starts with selecting the inner diameter 'a', which determines the operating frequency range. The waveguide must support only the TE11 mode for a given frequency to avoid mode conversion and interference. Aluminum and copper are commonly used materials due to their conductivity.
 
 Modern fabrication uses precision CNC machining or extrusion techniques to maintain tight tolerances and internal smoothness. Flange connectors, bends, and mode suppressors are integrated into waveguide assemblies to meet system-level requirements.
+
+![image](https://github.com/user-attachments/assets/50d17c1e-d1a3-4440-b448-e8a5677ba97c)
+
 ## 5. Real-Time Application in Satellite Ground Stations
 Satellite ground stations employ circular waveguides to transfer microwave signals from the transmitter to the feed horn at the antenna’s focal point. This setup ensures minimal signal attenuation and power reflection. The waveguides are aligned to match impedance and avoid higher-order modes. Circular waveguides are preferred in weather-exposed installations due to their mechanical robustness.
 
@@ -40,8 +53,14 @@ RF engineers use software tools such as CST Microwave Studio, ANSYS HFSS, and CO
 • VSWR Optimization: Ensuring low Voltage Standing Wave Ratio for maximum efficiency
 
 Proper connectorization, gasket sealing, and surface treatments are essential for long-term deployment in harsh environments.
+
+![image](https://github.com/user-attachments/assets/4c839f08-9723-49cd-b7b2-ffaf32f2b871)
+
 ## 9. Comparison with Other Waveguide Types
 Compared to rectangular waveguides, circular waveguides offer superior strength and ease of installation in curved or flexible paths. However, they are more complex to analyze analytically. Coaxial lines, while easier to handle, introduce more loss at microwave frequencies. Circular waveguides thus strike a balance between performance and practicality in satellite systems.
+
+![image](https://github.com/user-attachments/assets/e9a2e6d7-04f8-47ac-afc6-9fa2e2301f03)
+
 ## 10. Future Trends and Innovations
 With the rise of 5G, millimeter-wave satellite communication, and deep-space missions, the demand for ultra-precise, low-loss waveguides is growing. New developments include:
 • Dielectric-loaded waveguides
